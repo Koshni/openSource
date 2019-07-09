@@ -1,0 +1,65 @@
+{
+    "appButtonDesc": {
+        "message": "Export Tabs URLs"
+    },
+    "appName": {
+        "message": "Export Tabs URLs"
+    },
+    "appDesc": {
+        "message": "Speicher eine Liste aller offenen Tabs als Textdatei."
+    },
+    "optionsFormatCustom": {
+        "message": "Benutzerdefiniertes Format"
+    },
+    "optionsFormatCustomPlaceholder": {
+        "message": "keiner"
+    },
+    "optionsButtonResetFormat": {
+        "message": "Rücksetzen"
+    },
+    "optionsFormatCustomDescription": {
+        "message": "<p>Sie können ein benutzerdefiniertes Format anstelle des Standardformats definieren.</p><p>Sie können eine beliebige Kombination von Zeichen und die folgenden speziellen Blöcke verwenden:</p><ul><li><code>{title}</code>: title of a tab</li><li><code>{url}</code>: URL of a tab</li><li><code>{window-id}</code>: ID of the window containing a tab</li><li><code>\\r\\n</code>: new line</li></ul><p>Beispiel: <code>[{title}]({url})\\r\\n</code></p>"
+    },
+    "optionsIgnoreNonHTTP": {
+        "message": "Ignore non-HTTP(S) URLs"
+    },
+    "optionsIgnoreNonHTTPDescription": {
+        "message": "<p>This option prevent Export Tabs URLs from listing tabs whose URL scheme is different from <code>http://</code> or <code>https://</code>.</p>"
+    },
+    "optionsIgnorePinned": {
+        "message": "Ignore pinned tabs"
+    },
+    "optionsIgnorePinnedDescription": {
+        "message": "<p>This option prevent Export Tabs URLs from listing pinned tabs.</p>"
+    },
+    "optionsFilterTabs": {
+        "message": "Enable tabs filtering"
+    },
+    "optionsFilterTabsDescription": {
+        "message": "<p>This option adds a filtering feature to Export Tabs URLs.</p><p>Both the title and URL are searched against (even if not displayed).</p><p>You can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters\">regular expressions</a>.</p><p>Example:</p><ul><li><code>fe?ather</code>: matches both father and feather</li><li><code>(stackoverflow|github).com</code>: matches both stackoverflow.com and github.com</li></ul>"
+    },
+    "popupFilterTabsPlaceholder": {
+        "message": "Filter tabs"
+    },
+    "popupButtonCopy": {
+        "message": "In die Zwischenablage kopieren"
+    },
+    "popupButtonExport": {
+        "message": "Als Datei exportieren"
+    },
+    "popupLimitWindow": {
+        "message": "Auf das aktuelle Fenster begrenzen"
+    },
+    "popupLabelFormatCustom": {
+        "message": "Benutzerdefiniertes Format"
+    },
+    "popupLabelFormatTitles": {
+        "message": "Titel einschließen"
+    },
+    "copiedToClipboard": {
+        "message": "Die Liste wurde erfolgreich in die Zwischenablagekopiert."
+    },
+    "notCopiedToClipboard": {
+        "message": "Ein Fehler ist bei der Speicherung in die Zwischenablageaufgetreten."
+    }
+}
